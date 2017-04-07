@@ -3,7 +3,7 @@ import flask_login, sqlite3
 
 #configurations
 app = Flask(__name__)   
-app.secret_key = 'sitb2004!'   
+app.secret_key = ''   
 login_manager = flask_login.LoginManager()
 login_manager.init_app(app)
 DATABASE = 'users.db'
